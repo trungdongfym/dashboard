@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        [name="group1"]{
+            padding: 5px 10px;
+            width: 200px;
+            margin-top: 10px;
+        }
+        .list-group{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .list-item{
+            padding: 5px 10px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        .list-item:first-child{
+            margin-top: 20px;
+        }
+        .square{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-form">
+        <div class="form-group">
+            <label for="genderFilter">Gender</label> <br>
+            <select name="group1" id="genderFilter">
+                <option value="null">All</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <ul class='list-group' id="userList">
+
+        </ul>
+    </div>
+    <div class="square">
+
+    </div>
+    <p>acb</p>
+    <!-- <script src="./test1.js">
+
+    </script> -->
+</body>
+</html>
